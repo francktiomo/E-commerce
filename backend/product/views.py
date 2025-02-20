@@ -9,6 +9,7 @@ from .serializers import ProductSerializer
 # Create your views here.
 class LatestProductsList(APIView):
     def get(self, request, format=None):
+        print(request)
         products = Product.objects.all()[0:4]
         serializer = ProductSerializer(products, many=True)
         return Response(serializer.data)
