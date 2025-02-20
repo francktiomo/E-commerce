@@ -1,0 +1,39 @@
+.DS_Store
+frontend/node_modules
+fontend/dist
+
+
+# local env files
+fontend/.env.local
+fontend/.env.*.local
+
+backend/.env.local
+backend/.env.*.local
+
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+node_modules
+
+# Python venv
+venv
+frontend/venv
+
+# Django stuff:
+backend/backend/__pycache__
+backend/*.log
+backend/local_settings.py
+backend/db.sqlite3
+backend/db.sqlite3-journal
+
+# Vue stuff
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
